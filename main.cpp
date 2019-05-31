@@ -1,6 +1,6 @@
 #include <iostream>
 #include "GL/glut.h"
-
+#pragma comment(lib,"freeglut.lib")
 void reshape(int w,int h)
 {
     glViewport(0,0,w,h);
